@@ -10,8 +10,8 @@
   height: auto;
 }
 #title-background {
-  background-size: cover;
-  width: 100%;
+  background-size: cover !important;
+  width: 100% !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -176,4 +176,8 @@
     display: block;
     visibility: visible;
   }
+}
+
+body {
+  background-color: #141414;
 }
