@@ -9,7 +9,6 @@
   width: 100%;
   height: auto;
 }
-
 #title-background {
   background-size: cover !important;
   width: 100% !important;
@@ -177,4 +176,8 @@
     display: block;
     visibility: visible;
   }
+}
+
+body {
+  background-color: #141414;
 }

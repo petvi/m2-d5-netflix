@@ -32,3 +32,14 @@ $(document).ready(function () {
     }
   });
 });
+
+//navbar text color transition
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() < $("#title-background").height()) {
+      $(".navbar").removeClass("navbar-light");
+    } else {
+      $(".navbar").addClass("navbar-light");
+    }
+  });
+});
