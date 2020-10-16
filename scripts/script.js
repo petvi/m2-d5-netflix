@@ -26,20 +26,13 @@ $("#carousel-example").on("slide.bs.carousel", function (e) {
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() < $("#title-background").height()) {
+
       $(".navbar").removeClass("bg-dark");
+       $("#nav-link").removeClass("navbar-light");
     } else {
       $(".navbar").addClass("bg-dark");
+       $("#nav-link").addClass("navbar-light");
     }
   });
 });
 
-//navbar text color transition
-$(document).ready(function () {
-  $(window).scroll(function () {
-    if ($(this).scrollTop() < $("#title-background").height()) {
-      $(".navbar").removeClass("navbar-light");
-    } else {
-      $(".navbar").addClass("navbar-light");
-    }
-  });
-});
