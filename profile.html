@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      #settings {
+        max-width: 600px;
+      }
+
+      body {
+        background-color: #141414;
+      }
+
+      hr {
+        background-color: rgb(58, 58, 58);
+      }
+
+      label {
+        font-size: 1.2rem;
+        color: rgb(133, 133, 133);
+      }
+
+      .form-control {
+        color: #fff !important  ;
+        background-color: grey !important;
+        border-radius: 0 !important;
+        border: none !important;
+        font-size: 1.2rem;
+      }
+
+      .languages {
+        background-color: black !important;
+        width: auto;
+        font-size: 0.75rem;
+      }
+
+      .btn {
+        border-radius: 0;
+      }
+    </style>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar bg-black">
+      <a class="navbar-brand m" href="#">
+        <img
+          src="./imgs/logo.png"
+          height="60"
+          alt=""
+          loading="lazy"
+        />
+      </a>
+    </nav>
+
+    <div class="container mt-4" id="settings">
+      <h1 class="text-white">Edit Profile</h1>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col col-3 p-0">
+            <img
+              src="./imgs/strive.png"
+              alt=""
+              class="img-fluid"
+              loading="lazy"
+            />
+          </div>
+          <div class="col col-9">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                  value="Strive Student"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"
+                  >Language:</label
+                >
+                <select
+                  class="form-control languages"
+                  id="exampleFormControlSelect1"
+                >
+                  <option>English</option>
+                  <option>Deutsch</option>
+                  <option>Español</option>
+                  <option>中文</option>
+                  <option>Pусский</option>
+                </select>
+              </div>
+              <hr />
+              <div class="form-group">
+                <label for="exampleInputPassword1"
+                  >Maturity Settings:</label
+                >
+                <select
+                  class="form-control"
+                  id="exampleFormControlSelect1"
+                >
+                  <option>
+                    ALL MATURITY SETTINGS
+                  </option>
+                </select>
+                <small
+                  id="emailHelp"
+                  class="form-text text-muted my-3"
+                  >Show titles of all maturity
+                  ratings for this profile.</small
+                >
+                <button
+                  href="#"
+                  class="btn btn-outline-light px-4"
+                >
+                  Edit
+                </button>
+              </div>
+              <hr />
+              <div class="form-group">
+                <label for="exampleInputPassword1"
+                  >Autoplay controls</label
+                >
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck1"
+                  />
+                  <label
+                    class="form-check-label small"
+                    for="defaultCheck1"
+                  >
+                    Autoplay next episode in a
+                    series on all devices.
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="defaultCheck2"
+                  />
+                  <label
+                    class="form-check-label small"
+                    for="defaultCheck2"
+                  >
+                    Autoplay previews while
+                    browsing on all devices.
+                  </label>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col">
+            <button
+              class="btn btn-outline-light btn-block"
+            >
+              SAVE
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn btn-outline-light btn-block"
+            >
+              CANCEL
+            </button>
+          </div>
+          <div class="col">
+            <button
+              class="btn btn-outline-light btn-block"
+            >
+              DELETE PROFILE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
