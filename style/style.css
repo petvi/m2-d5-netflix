@@ -25,6 +25,10 @@ h1 {
   background-color: #e50914;
 }
 
+.btn-danger:hover {
+  background-color: #ff0512;
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 100%);
@@ -43,6 +47,7 @@ h1 {
   transition: 250ms all;
 }
 .wrapper section .item:hover {
+  cursor: pointer;
   margin: 0 40px;
   transform: scale(1.2);
 }
