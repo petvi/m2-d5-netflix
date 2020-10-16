@@ -86,3 +86,6 @@ h1 {
 body {
   background-color: #141414;
 }
+.wrapper > section > .item > img {
+  border-radius: 7px;
+}
