@@ -17,7 +17,7 @@ html {
 
 h1 {
   font-family: Arial;
-  color: red;
+  color: rgba(187, 18, 18, 0.39);
   text-align: center;
 }
 
@@ -96,4 +96,10 @@ body {
 .jumbotron .container {
   z-index: 2;
   position: relative;
+}
+#fku {
+  transition: all 0.25s ease;
+}
+#fku:hover {
+  color: transparent;
 }
