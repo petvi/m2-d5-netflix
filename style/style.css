@@ -9,6 +9,10 @@
   width: 100%;
   height: auto;
 }
+.rect>img {
+  width: 100% !important;
+  
+}
 #title-background {
   background-size: cover;
   width: 100%;
@@ -176,4 +180,8 @@
     display: block;
     visibility: visible;
   }
+}
+
+body{
+  background-color: #141414;
 }
