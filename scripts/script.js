@@ -28,10 +28,23 @@ $(document).ready(function () {
     if ($(this).scrollTop() < $("#title-background").height()) {
 
       $(".navbar").removeClass("bg-dark");
-       $("#nav-link").removeClass("navbar-light");
+       $(".navbar").removeClass("navbar-dark");
     } else {
       $(".navbar").addClass("bg-dark");
-       $("#nav-link").addClass("navbar-light");
+       $(".navbar").addClass("navbar-light");
+    }
+  });
+});
+
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() < $("#title-background").height()) {
+
+      
+       $(".navbar").removeClass("navbar-dark");
+    } else {
+      
+       $(".navbar").addClass("navbar-light");
     }
   });
 });
