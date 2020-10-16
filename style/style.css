@@ -64,7 +64,7 @@ h1 {
   background: linear-gradient(
     -90deg,
     rgba(0, 0, 0, 0) 0%,
-    black 100%
+    #141414 100%
   );
 }
 .wrapper section a:nth-of-type(2) {
@@ -74,7 +74,7 @@ h1 {
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0) 0%,
-    black 100%
+    #141414 100%
   );
 }
 
