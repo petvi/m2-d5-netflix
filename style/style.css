@@ -9,9 +9,10 @@
   width: 100%;
   height: auto;
 }
+
 #title-background {
-  background-size: cover;
-  width: 100%;
+  background-size: cover !important;
+  width: 100% !important;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
